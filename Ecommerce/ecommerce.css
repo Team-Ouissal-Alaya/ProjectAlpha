@@ -4,10 +4,14 @@
   
   /* Create three equal columns that floats next to each other */
   .column {
+
+  
+ 
+    margin-top: 50px;
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 400px; 
   }
   
   /* Clear floats after the columns */
@@ -16,3 +20,59 @@
     display: table;
     clear: both;
   }
+
+
+
+
+
+  .navbar{
+ 
+    position:fixed;
+    height: 80px;
+    overflow:hidden;
+    top:0;
+    display: flex;
+    align-items: center;
+    background-color : black;
+    width: 100%;
+    }
+
+
+
+    .menue a:hover{
+      color: red;
+  }
+  .menue a{
+    
+      color: ghostwhite;
+      text-decoration: none;
+      font-weight: 700;
+      margin-left: 20px;
+      transition:color 0.3s;
+      }
+
+      .menue{
+
+      
+          position: absolute;
+          right: 20px;
+         
+              
+          }
+.allpic{
+
+height: 250px;
+width: 300px;
+
+
+}
+
+#div1{
+
+  border-radius: 30px;
+  border-color: black;
+  border-style: double;
+  border: 2px;
+}
+
+
