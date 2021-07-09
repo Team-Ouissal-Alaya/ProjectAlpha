@@ -8,64 +8,103 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
         </script>
-    
+<link rel="stylesheet" href="plan1.css">
     <title>Document</title>
 </head>
 
-<body>
+<body style="margin-left: 28%;margin-right: 35%;height: 1200px;">
     <div>
-    <h2>Work Out Plan</h2>
-<p>If you are looking to build some muscle and gain some serious size, we have got you covered with our Intermediate Muscle Building Workout Plan!  </p>
+        <h2>Work Out Plan</h2>
+        <p>If you are looking to build some muscle and gain some serious size, we have got you covered with our
+            Intermediate Muscle Building Workout Plan! </p>
 
-<p>This plan has been developed to help you stimulate muscle growth and add lean muscle to your physique.</p>
-<p>So if you want to get bigger, stronger and more confident in your body, let us guide you through the process of building muscle!</p>
-</div>
+        <p>This plan has been developed to help you stimulate muscle growth and add lean muscle to your physique.</p>
+        <p>So if you want to get bigger, stronger and more confident in your body, let us guide you through the process
+            of building muscle!</p>
+    </div>
 
 
-<div>
-    <button id="warmup">WARM UP</button>
-</div>
-    <br>
+    <div>
+        <button id="warmup"class="buttonclass">WARM UP</button>
+    </div>
+    <div id="warmuptext" style="display: none;">
+        <p>Warming up is a vital part of every workout.</p>
+        <p>A good warm up will prepare your body &
+            your mind for the workout ahead while reducing the risk of injury, allowing you to workout harder for
+            longer.</p>
+        <p>We suggest doing 5-10 minutes of light cardio on a treadmill, cross trainer,
+            exercise bike or stairmaster, followed by 5-10 minutes of dynamic stretching before starting each workout.
+        </p>
+<p>Dynamic stretches should be kept relevant to the workout you are about to perform. If you are unsure about how to dynamically stretch effectively, watch Episode 6 of IFBB Pro Joseph Mencel's Pro Prep Video Series,
+     where Joseph takes you through his upper and lower body warm-up routines: <a href="https://www.youtube.com/watch?v=gVHoYV2xXcE">Pro Prep Episode 6</a> </p>
+
+
+    </div>
     
-<div>
-    <button id="day1">DAY 1 - BACK & BICEPS</button>
-</div>
-<div id="photy" style="display: none;">
-    <img src='C:\Users\Dream Team\Desktop\ProjectAlpha\media\day1.png' id="phot1" style="width: 650px;" alt="">
-</div>
-<div>
-    <button id="day2">DAY 2 - CHEST & CORE</button>
-</div>
-<div>
-    <button id="day3">DAY 3 - REST</button>
-</div>
-<div>
-    <button id="day4">DAY 4 - QUADS & GLUTES</button>
-</div>
-<div>
-    <button id="day5">DAY 5 - SHOULDERS & TRICEPS</button>
-</div>
-<div>
-    <button id="day6">DAY 6 - REST</button>
-</div>
-<div>
-    <button id="day7">DAY 7 - HAMSTRINGS & CALVES</button>
-</div>
 
+    <div>
+        <button id="day1" class="buttonclass">DAY 1 - BACK & BICEPS</button>
+    </div>
+    
+    <div id='plan1day1' style="display: none;">
+        <img src="C:/Users/Dream Team/Desktop/ProjectAlpha/media/plan1day1.png" width="650">
+    </div>
+    <div>
+        <button id="day2" class="buttonclass">DAY 2 - CHEST & CORE</button>
+    </div>
+    <div id="plan1day2" style="display: none;">
+<img src="C:\Users\Dream Team\Desktop\ProjectAlpha\media\plan1day2.png" width="650">
 
+    </div>
+    <div>
+        <button id="day3" class="buttonclass">DAY 3 - REST</button>
+    </div>
 
+    <div id="plan1day3" style="display: none;">
+        <img src="C:\Users\Dream Team\Desktop\ProjectAlpha\media\plan1day3.png" width="650">
+    </div>
+    <div>
+        <button id="day4" class="buttonclass">DAY 4 - QUADS & GLUTES</button>
+    </div>
+
+    <div id="plan1day4" style="display: none;">
+        <img src="C:\Users\Dream Team\Desktop\ProjectAlpha\media\plan1day4.png" width="650">
+    </div>
+    <div>
+        <button id="day5" class="buttonclass">DAY 5 - SHOULDERS & TRICEPS</button>
+    </div>
+
+    <div id="plan1day5" style="display: none;">
+        <img src="C:\Users\Dream Team\Desktop\ProjectAlpha\media\plan1day5.png" width="650">
+    </div>
+    <div>
+        <button id="day6" class="buttonclass">DAY 6 - REST</button>
+    </div>
+
+    <div id="plan1day6" style="display: none;">
+        <img src="C:\Users\Dream Team\Desktop\ProjectAlpha\media\plan1day6.png" width="650">
+    </div>
+    <div>
+        <button id="day7" class="buttonclass">DAY 7 - HAMSTRINGS & CALVES</button>
+    </div>
+    <div id="plan1day7" style="display: none;">
+        <img src="C:\Users\Dream Team\Desktop\ProjectAlpha\media\plan1day7.png" width="650">
+    </div>
+
+<br><br>
 
     <button id='start'>start your journey</button>
-
+<br>
+<br>
     <div id="inputs" style="display: none;">
- <input type="text" id="name" placeholder='Your name' >
- <input type="text" id="lastname"placeholder='Your LastName'
- >
- <input type="number" id="age"placeholder='Your Age'
- >
- <input type="number" id="weight"placeholder='Your Weight'
- >
+        <input type="text" id="name" placeholder='Your name'class="inputclass">
+        <input type="text" id="lastname" placeholder='Your LastName' class="inputclass">
+        <input type="number" id="age" placeholder='Your Age' class="inputclass">
+        <input type="number" id="weight" placeholder='Your Weight' class="inputclass">
+        <input type="number" id="height" placeholder='Your height in cm' class="inputclass">
+        <button id='confirm'>Confirm</button>
     </div>
+    
     <script src="path1.js"></script>
 </body>
 
