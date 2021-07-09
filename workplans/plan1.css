@@ -1,0 +1,38 @@
+.buttonclass {
+width: 650px;
+border-radius: 12px;
+    border: none;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:rgb(236, 200, 186);
+}
+
+#start {
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 45%;
+}
+
+.inputclass {
+    border-radius: 12px;
+    border: none;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:rgb(236, 200, 186);
+    margin-left: 37%;
+    display: inline-flex
+}

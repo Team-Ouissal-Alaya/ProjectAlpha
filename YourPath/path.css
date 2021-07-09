@@ -1,0 +1,25 @@
+.texto{
+    font-family:century;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bold;
+    color: rgb(175, 57, 57);
+    background-color: 
+    
+}
+
+.buttonp{
+    border-radius: 12px;
+    border: none;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:rgb(236, 200, 186);
+   
+}
+
