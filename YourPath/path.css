@@ -2,7 +2,7 @@
     font-family:century;
     text-align: center;
     font-weight: bold;
-    color: rgb(175, 57, 57);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size:larger;
     
@@ -11,7 +11,7 @@
 .buttonp{
     border-radius: 12px;
     border: none;
-    color:black;
+    color:rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -19,7 +19,7 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color:rgb(238, 182, 150);
+    background-color:rgb(0, 0, 0);
    text-align: center;
    width: 250px;
 }
@@ -29,3 +29,38 @@
     font-weight: bolder;
     text-align: center;
 }
+
+.navbar{
+    position:fixed;
+    height: 80px;
+    overflow:hidden;
+    top:0;
+    display: flex;
+    align-items: center;
+    background-color : black;
+    width: 100%;
+ left: 0;
+}
+
+.menue a{
+    
+    color: ghostwhite;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+    transition:color 0.3s;
+ 
+    }
+    .menue a:hover{
+        color: red;
+    }
+
+.menue{
+
+     font-size: large;   
+    position: absolute;
+    right: 30.33%;
+    font-weight: bold;
+     
+    }
+
