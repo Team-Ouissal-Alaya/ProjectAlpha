@@ -9,7 +9,11 @@ border-radius: 12px;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color:rgb(236, 200, 186);
+    background-color:rgb(255, 255, 255);
+}
+
+.buttonclass:hover{
+    color: red;
 }
 
 .submit {
@@ -32,13 +36,68 @@ border-radius: 12px;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color:rgb(236, 200, 186);
+    background-color:rgb(255, 255, 255);
     text-align: center;
     display: inline-flex
 }
 
 p {
-    color: rgb(199, 22, 22);
+    color: rgb(0, 0, 0);
     font-size: larger;
    
 }
+
+.label {
+    color: rgb(248, 12, 12);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.navbar{
+    position:fixed;
+    height: 80px;
+    overflow:hidden;
+    top:0;
+    display: flex;
+    align-items: center;
+    background-color : black;
+    width: 100%;
+ left: 0;
+}
+
+.menue a{
+    
+    color: ghostwhite;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+    transition:color 0.3s;
+ 
+    }
+    .menue a:hover{
+        color: red;
+    }
+
+.menue{
+
+     font-size: large;   
+    position: absolute;
+    right: 30.33%;
+    font-weight: bold;
+     
+    }
+
+    .ml3 {
+        font-weight: 900;
+        font-size: 3.5em;
+      }
+
+      #description {
+          align-items: center;
+          font-size: large;
+          width: 750px;
+          margin-left: 10.33%;
+          background-color: rgb(255, 255, 255);
+        
+          height: 250px;
+      }
