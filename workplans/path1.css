@@ -1,5 +1,5 @@
 .buttonclass {
-width: 650px;
+width: 550px;
 border-radius: 12px;
     border: none;
     color:black;
@@ -13,12 +13,12 @@ border-radius: 12px;
     background-color:rgb(236, 200, 186);
 }
 
-#start {
-    border-radius: 12px;
+.submit {
+    border-radius: 10px;
     padding: 20px;
     text-align: center;
     display: inline-block;
-    margin-left: 45%;
+    text-align: center;
 }
 
 .inputclass {
@@ -33,6 +33,7 @@ border-radius: 12px;
     margin: 4px 2px;
     cursor: pointer;
     background-color:rgb(236, 200, 186);
-    margin-left: 37%;
+    text-align: center;
     display: inline-flex
 }
+
