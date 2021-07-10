@@ -26,7 +26,6 @@
 
 
   .navbar{
- 
     position:fixed;
     height: 80px;
     overflow:hidden;
@@ -35,31 +34,32 @@
     align-items: center;
     background-color : black;
     width: 100%;
-    margin-right: 100%;
+ left: 0;
+}
+
+.menue a{
+    
+    color: ghostwhite;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+    transition:color 0.3s;
+ 
+    }
+    .menue a:hover{
+        color: red;
+    }
+
+.menue{
+
+     font-size: large;   
+    position: absolute;
+    right: 30.33%;
+    font-weight: bold;
+     
     }
 
 
-
-    .menue a:hover{
-      color: red;
-  }
-  .menue a{
-    
-      color: ghostwhite;
-      text-decoration: none;
-      font-weight: 700;
-      margin-left: 20px;
-      transition:color 0.3s;
-      }
-
-      .menue{
-
-      
-          position: absolute;
-          right: 20px;
-         
-              
-          }
 .allpic{
 
 height: 250px;
