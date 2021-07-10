@@ -62,7 +62,7 @@ $('#fat').click(function () {
     $(this).css('background-color', 'lightcoral');
     $('#muscle').css('background-color', '');
     localStorage.setItem("goal", "fat");
-    
+    workplan();
 })
 $('#muscle').click(function () {
     bmuscle = true;
@@ -70,50 +70,50 @@ $('#muscle').click(function () {
     $(this).css('background-color', 'lightcoral');
     $('#fat').css('background-color', '');
     localStorage.setItem("goal", "muscle");
-
+    workplan();
 })
 
 function workplan() {
     if (bmale === true && bbeginner === true && bfat === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
 
     if (bmale === true && bbeginner === true && bmuscle === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
 
     if (bmale === true && bintermediate === true && bfat === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
     if (bmale === true && bintermediate === true && bmuscle === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
     if (bmale === true && badvanced === true && bfat === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
     if (bmale === true && badvanced === true && bmuscle === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
 
     if (bfemale === true && bbeginner === true && bfat === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
 
     if (bfemale === true && bbeginner === true && bmuscle === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
 
     if (bfemale === true && bintermediate === true && bfat === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
     if (bfemale === true && bintermediate === true && bmuscle === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
     if (bfemale === true && badvanced === true && bfat === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
     if (bfemale === true && badvanced === true && bmuscle === true) {
-        window.location.href = ""
+        window.open("file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/workplans/path1.html");
     }
 
 }

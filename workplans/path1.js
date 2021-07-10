@@ -49,24 +49,29 @@ $('#day7').click(function () {
 })
 
 $('#start').click(function () {
-    $('#inputs').css('display', 'block')
+    $('#finaldiv').css('display', 'block')
 })
 
 
 $('#confirm').click(function () {
-    window.open('C:/Users/Dream Team/Desktop/ProjectAlpha/Personalinfos/pinfos.html')
+   
 
     const name = $("#name").val()
     const last = $("#lastname").val()
     const age = $('#age').val()
     const weight = $('#weight').val()
     const height = $('#height').val()
-
-    
+    var check=false;
+if (!name||!last||!age||!weight||!height){
+    check=true;
+    alert ('Please fill all fields')
+}
+ if(check===false)   {
     localStorage.setItem("name", name)
     localStorage.setItem("last", last)
     localStorage.setItem("age", age)
     localStorage.setItem("weight", weight)
     localStorage.setItem("height", height)
-
+    window.open('C:/Users/Dream Team/Desktop/ProjectAlpha/Personalinfos/pinfos.html')
+ }
 })
