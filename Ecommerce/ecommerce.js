@@ -27,7 +27,7 @@ var tittle9 = 'Lean Moblie Phone Armband';
 $("#buy1").click(function(){
 cartprice.push(price1)
 nameitem.push(tittle1)
-
+alert ('Item added to Cart')
 
 })
 
@@ -37,7 +37,7 @@ nameitem.push(tittle1)
 $("#buy2").click(function(){
     cartprice.push(price2)
     nameitem.push(tittle2)
-    
+    alert ('Item added to Cart')
     })
 
 
@@ -45,14 +45,14 @@ $("#buy2").click(function(){
 $("#buy3").click(function(){
     cartprice.push(price3)
     nameitem.push(tittle3)
-    
+    alert ('Item added to Cart')
     })
 
 
 $("#buy4").click(function(){
     cartprice.push(price4)
     nameitem.push(tittle4)
-    
+    alert ('Item added to Cart')
     })
 
 
@@ -60,6 +60,7 @@ $("#buy5").click(function(){
     cartprice.push(price5)
     
     nameitem.push(tittle5)
+    alert ('Item added to Cart')
     })
 
 
@@ -68,7 +69,7 @@ $("#buy5").click(function(){
 $("#buy6").click(function(){
     cartprice.push(price6)
     nameitem.push(tittle6)
-    
+    alert ('Item added to Cart')
     })
 
 
@@ -77,7 +78,7 @@ $("#buy6").click(function(){
 $("#buy7").click(function(){
     cartprice.push(price7)
     nameitem.push(tittle7)
-    
+    alert ('Item added to Cart')
     })
 
 
@@ -86,6 +87,7 @@ $("#buy8").click(function(){
     cartprice.push(price8)
     
     nameitem.push(tittle8)
+    alert ('Item added to Cart')
     })
 
 
@@ -93,25 +95,42 @@ $("#buy8").click(function(){
 $("#buy9").click(function(){
     cartprice.push(price9)
     nameitem.push(tittle9)
-    
+    alert ('Item added to Cart')
     })
 
 
     var total =0
   $("#viewcart").click(function(){
-for( var i= 0; i<cartprice.length;i++){
-$("#finalcart").append("<p>"+ " Item : " + nameitem[i] + " . price : "+ cartprice[i]+"</p>" )
-$("#finalcart").toggle()
+
+      })
+
+  $(document).ready(function() {
+    $('#trigger').click(function() {
+        if (cartprice.length===0){
+            alert( 'Your cart is empty')
+           
+        }
+     
+    for( var i= 0; i<cartprice.length;i++){
+    $("#popup").append("<p>"+ " Item : " + nameitem[i] + " . price : "+ cartprice[i]+"</p>" )
+    $("#popup").toggle()
+     
+    
+    total= total +cartprice[i]
+      
+    }
+     
+     if (total!==0){
+    
+      $("#popup").append("<p>"+ "Total price : " + total + " $ " +"</p>")
+    
+      $('#overlay').fadeIn(300);
+    }
+    
+      
+    });
  
-
-total= total +cartprice[i]
-  
-}
- 
-
-
-  $("#finalcart").append("<p>"+ "Total price : " + total + " $ " +"</p>")
-
-  
-
-  })
+    $('#close').click(function() {
+       $('#overlay').fadeOut(300);
+    });
+ });
