@@ -9,11 +9,11 @@ var height=localStorage.getItem("height");
 
 
 $('#infos').ready(function(){
-    $('#infos').append ( '<p>'+name+' '  +lastname +'</p>')
+    $('#infos').append ( '<p style="font-weight: bolder;">'+name+' '  +lastname +'</p>')
     
-    $('#infos').append (  '<p>'+'Age : '+age+'</p>' )
+    $('#infos').append (  '<p style="font-weight: bolder;">'+'Age : '+age+'</p>' )
 
-    $('#infos').append (  '<p>'+'Your initial weight is : '+localStorage.getItem("weight")+'</p>' )
+    $('#infos').append (  '<p style="font-weight: bolder;">'+'Your initial weight was : '+localStorage.getItem("weight")+'</p>' )
 
     
     
@@ -33,13 +33,13 @@ $('#updateweight').click(function (){
     location.reload();
 })
 
-$('#currentweight').append (  '<p>'+'Your current weight is : '+localStorage.getItem("weight2")+'</p>' )
+$('#currentweight').append (  '<p style="font-weight: bolder;">'+'Your current weight is : '+localStorage.getItem("weight2")+'</p>' )
 
 
 
-var BMI = localStorage.getItem("weight2")/((height/100)*(height/100));
+var BMI = Math.floor(localStorage.getItem("weight2")/((height/100)*(height/100)));
 
 $('#bmi').ready(function(){
     
-    $('#bmi').append ( '<p>'+'Your current BMI is : '+BMI+'</p>')
+    $('#bmi').append ( '<p style="font-weight: bolder;">'+'Your current BMI is : '+BMI+'</p>')
 })
