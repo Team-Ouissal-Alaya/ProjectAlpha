@@ -47,11 +47,11 @@ $('#day7').click(function () {
 
     $('#plan1day7').toggle();
 })
-
+$(document).ready(function(){
 $('#start').click(function () {
-    $('#finaldiv').css('display', 'block')
+    $('#overlay').fadeIn(300);
 })
-
+})
 
 $('#confirm').click(function () {
    

@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="ecommerce.css">
 
 
-
 </head>
 
 <body style="height: 1200px;text-align: center;">
@@ -27,24 +26,33 @@
     <div class='menue'>
         <a id='home' href="file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/Homepage/home.html#"> HOME </a>
         <a id='plans' href="file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/YourPath/path.html"> START YOUR WORKOUT </a>
-        <a id='ecommerce' href="file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/Ecommerce/ecommerce.html"> E-COMMERCE</a>
+        <a id='ecommerce' href="file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/Ecommerce/ecommerce.html"> SHOP NOW</a>
         <a id='contactus' href="file:///C:/Users/Dream%20Team/Desktop/ProjectAlpha/ContactUs/contact.html"> CONTACT US </a>
 
     </div>
 </div>
+
 <br>
 <br><br>
-  <img src="C:\Users\Dream Team\Desktop\ProjectAlpha\media\work plan.png" alt="work plan log" style="width: 450px;">
+
+<div id='firstdiv'>
+<img id ='add' src="https://www.indianbodybuilding.co.in/products/wp-content/uploads/2018/08/John-Abraham-Brand-Ambasador-of-GNC-India-1024x549.jpg" alt="">
+<img src="C:\Users\Dream Team\Desktop\ProjectAlpha\media\slider.gif" alt="" style="height: 450px;width: 100%;">
 <br>
 
+<p id='bestseller'>BEST SELLER </p>
+<button id="trigger">VIEW CART</button>
+</div>
+
+
   <div class="row1">
+ 
 
-
-    <div class="column">
+    <div class="column" >
       <img class='allpic' src="https://i.ibb.co/6WNHmQr/item1.png" alt="">
       <p id="title1"> Optimum Gold Standard 100% Whey Protein </p>
 
-      <p id='1item'> 35$ </p>
+      <p id='item1'> 35$ </p>
       <button class='cart' id='buy1'> ADD TO CART </button>
 
 
@@ -54,7 +62,7 @@
       <img class='allpic' src="https://i.ibb.co/xzvtjRn/item2.jpg" alt="">
       <p id="title2"> Dymatize Elite Whey Protein</p>
 
-      <p id='2item'> 37$ </p>
+      <p id='item2'> 37$ </p>
       <button class='cart' id='buy2'> ADD TO CART </button>
     </div>
 
@@ -63,7 +71,7 @@
       <img class='allpic' src="https://i.ibb.co/R0GK4Wv/item3.jpg" alt="">
       <p id="title3">MuscleTech Nitro Tech Performance Series</p>
 
-      <p id='3item'> 50$ </p>
+      <p id='item3'> 50$ </p>
       <button class='cart' id='buy3'> ADD TO CART </button>
     </div>
   </div>
@@ -74,19 +82,19 @@
     <div class="column">
       <img class='allpic' src="https://i.ibb.co/2PXvLxc/item4.png" alt="">
       <p id="title4">BlenderBottle Classic V2 Shaker Cup - 20 oz.</p>
-      <p id='4item'> 10$ </p>
+      <p id='item4'> 10$ </p>
       <button class='cart' id='buy4'> ADD TO CART </button>
     </div>
     <div class="column">
       <img class='allpic' src="https://i.ibb.co/wRCK4hg/item5.jpg" alt="">
       <p id="title5">Essential Studio Yoga Mat | Ink 4mm</p>
-      <p id='5item'> 15$ </p>
+      <p id='item5'> 15$ </p>
       <button class='cart' id='buy5'> ADD TO CART </button>
     </div>
     <div class="column">
       <img class='allpic' src="https://i.ibb.co/3cjWyNY/item6.png" alt="">
       <p id="title6"> Structured 3.0 Training Belt</p>
-      <p id='6item'> 25$ </p>
+      <p id='item6'> 25$ </p>
       <button class='cart' id='buy6'> ADD TO CART </button>
     </div>
 
@@ -95,20 +103,22 @@
         <img class='allpic' src="https://i.ibb.co/17KfKgf/item7.jpg" alt="">
         <p id="title7"> Fitness World Exercise Dumbbells 4 KG
         </p>
-        <p id='7item'> 35$ </p>
+        <p id='item7'> 35$ </p>
         <button class='cart' id='buy7'> ADD TO CART </button>
       </div>
       <div class="column">
         <img class='allpic' src="https://i.ibb.co/wJZQvrn/item8.jpg" alt="">
         <p id="title8">Basics Cast Iron Kettlebell</p>
-        <p id='8item'> 65$ </p>
+        <p id='item8'> 65$ </p>
         <button class='cart' id='buy8'> ADD TO CART </button>
       </div>
       <div class="column">
         <img class='allpic' src="https://i.ibb.co/BrF2Qzq/item9.png" alt="">
         <p id="title9"> Lean Moblie Phone Armband</p>
-        <p id='9item'> 5$ </p>
+        <p id='item9'> 5$ </p>
         <button class='cart' id='buy9'> ADD TO CART </button>
+        <i class="fas fa-cart-plus"></i>
+
 
       </div>
       
@@ -118,14 +128,17 @@
       <div id='finalcart' style="display: none;"> </div>
 
 
-      <button id="trigger">VIEW CART</button>
       <div id="overlay">
         <div id="popup">
+          <p>Thank you for shopping with us, your cart contains: </p>
+          
           <div id="close">X</div>
           
           
         </div>
       </div>
+
+      
 
       <script src="ecommerce.js"></script>
 </body>

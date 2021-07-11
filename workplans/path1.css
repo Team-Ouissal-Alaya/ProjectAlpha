@@ -9,11 +9,12 @@ border-radius: 12px;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(230, 228, 228);
 }
 
 .buttonclass:hover{
-    color: red;
+    color: white;
+    background-color: tomato;
 }
 
 .submit {
@@ -27,8 +28,8 @@ border-radius: 12px;
 
 .inputclass {
     border-radius: 12px;
-    border: none;
-    color:black;
+    border:none;
+    color:white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -36,7 +37,7 @@ border-radius: 12px;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(187, 187, 187);
     text-align: center;
     display: inline-flex
 }
@@ -101,3 +102,41 @@ p {
         
           height: 250px;
       }
+
+
+#start:hover{
+    color: white;
+    background-color: tomato;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+#description {
+    background-color: rgb(224, 220, 220);
+}
+
+#overlay {
+    position: fixed;
+    height: 100%; 
+    width: 100%;
+    top: 0;
+    right: 0;  
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    }
+  
+    #popup {
+    max-width: 600px;
+    width: 80%;
+    max-height: auto;
+    height: 80%; 
+    padding: 20px;
+    position: relative;
+    background: #fff;
+    margin: 20px auto;
+    }
+  
+   
