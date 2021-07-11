@@ -1,7 +1,8 @@
 p {
-    color: rgb(199, 22, 22);
+    color:white;
     font-size: larger;
-   
+ 
+   font-weight: bolder;
 }
 
 #newweight {
@@ -15,10 +16,10 @@ p {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color:rgb(236, 200, 186);
+    background-color:rgb(255, 255, 255);
     text-align: center;
     display: inline-flex;
-    width: 220px;
+    width: 250px;
 }
 
 #updateweight {
@@ -32,7 +33,7 @@ p {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color:rgb(100, 95, 95);
+    background-color:tomato;
     text-align: center;
     display: inline-flex
 }
@@ -71,3 +72,32 @@ p {
      
     }
 
+    * {
+        box-sizing: border-box;
+      }
+      
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        
+      }
+
+      #first {
+          text-align: center;
+      }
+
+      h1{
+          color: white;
+      }
+
+   
