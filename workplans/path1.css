@@ -1,15 +1,17 @@
+
+
 .buttonclass {
 width: 550px;
 border-radius: 12px;
-    
+ 
     color:black;
     padding: 20px;
     text-align: center;
-   
+   background-color: transparent;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color:rgb(230, 228, 228);
+    background-color: rgb(231, 225, 211);
 }
 
 .buttonclass:hover{
@@ -24,6 +26,7 @@ border-radius: 12px;
     display: inline-block;
     text-align: center;
     width: 150px;
+    background-color: tomato;
 }
 
 .inputclass {
@@ -43,7 +46,7 @@ border-radius: 12px;
 }
 
 p {
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: larger;
    
 }
@@ -95,11 +98,11 @@ p {
 
       #description {
           align-items: center;
-          font-size: large;
+          font-size: 20px;
           width: 750px;
-          margin-left: 10.33%;
-          background-color: rgb(255, 255, 255);
-        
+          margin-left: 25.33%;
+          text-shadow: 2px 2px black;
+         
           height: 250px;
       }
 
@@ -112,9 +115,7 @@ p {
     color: rgb(0, 0, 0);
 }
 
-#description {
-    background-color: rgb(224, 220, 220);
-}
+
 
 #overlay {
     position: fixed;
@@ -146,5 +147,19 @@ p {
         cursor: pointer;
         color: #000;
      }
-  
-   
+  #text{
+
+    color: white;
+  }
+
+  .background {
+      text-align: center;
+      background-image: url('https://static01.nyt.com/images/2017/04/09/well/9minute-workout-promo/9minute-workout-promo-jumbo.png');
+     
+  }
+  #warmuptext{
+    
+      width: 550px;
+      margin-left: 32.33%;
+      background-color: rgb(102, 99, 99);
+  }
