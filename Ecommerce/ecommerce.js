@@ -106,13 +106,13 @@ $("#buy9").click(function(){
 
   $(document).ready(function() {
     $('#trigger').click(function() {
-        if (cartprice.length===0){
+        if (nameitem.length===0){
             alert( 'Your cart is empty')
            
         }
      
     for( var i= 0; i<cartprice.length;i++){
-    $("#popup").append("<p>"+ " Item : " + nameitem[i] + " . price : "+ cartprice[i]+"</p>" )
+    $("#popup").append("<p>"+ (i+1)+" : " + nameitem[i] + " . price : "+ cartprice[i]+"$"+"</p>" )
     $("#popup").toggle()
      
     
@@ -131,6 +131,6 @@ $("#buy9").click(function(){
     });
  
     $('#close').click(function() {
-       $('#overlay').fadeOut(300);
+       $('#overlay').fadeOut(500);
     });
  });

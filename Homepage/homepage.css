@@ -79,48 +79,36 @@
 
 
 #freeworkout{
-
-
-margin-right:  70%;
-
+    margin-right:  70%;
     height: 350px ;
-    
     width: 50;
-
-    
-}
+ }
 
 #freeworkout{
     margin-left: 45px;
-   
-    width: 400px;
-height: 600px;
+    width: 500px;
+    height: 600px;
     
 }
 
 #color:hover{
-
     text-decoration-line: underline;
     text-decoration-color: red ;
     text-decoration-style: none;
-
 }
 
-#color
-     {
-         margin-top: 50%;
-  margin-right: 100px;
+#color{
+    
+    margin-right: 25%;
     color: black;
-
     font-size: 85px;
+    
 }
 
 
 #freeworkoutdiv{
-
     column-count: 2;
-
-
+    vertical-align:middle;
 }
 #but{
    
@@ -128,30 +116,20 @@ height: 600px;
     border: none;
     color:white;
     padding: 20px;
-    text-align: center;
-  background-color: black;
-    display: inline-block;
+    background-color: black;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
-  
-   text-align: center;
-   width: 250px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    width: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 25%;
 }
 
-
-
 #slide2{
-
     display: none;
 }
 
 
-   .adds{
-
-
+.adds{
     width:410px;
     height: 320px;
    }
@@ -160,13 +138,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right: 70%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   column-count: 2;
-
-   width: 1250px;
+    column-count: 2;
+    width: 1250px;
 }
 
 #contact:hover {
-  color: red;
+    color: red;
 }
 
 #container{
@@ -191,5 +168,5 @@ ul {
   
   li::before {
     content: "• ";
-    color: rgb(0, 0, 0); /* or whatever color you prefer */
+    color: rgb(0, 0, 0); 
   }
