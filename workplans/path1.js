@@ -51,6 +51,9 @@ $(document).ready(function(){
 $('#start').click(function () {
     $('#overlay').fadeIn(300);
 })
+$('#close').click(function() {
+    $('#overlay').fadeOut(500);
+ });
 })
 
 $('#confirm').click(function () {
